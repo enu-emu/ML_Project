@@ -1,0 +1,22 @@
+# Ignore virtual environment
+ml_venv/
+
+# Ignore Jupyter Notebook checkpoints
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store  # Mac system file
+Thumbs.db  # Windows system file
+
+# Ignore logs and temp files
+logs/
+*.log
+*.out
+
+# Ignore large output files (optional)
+results/
+
